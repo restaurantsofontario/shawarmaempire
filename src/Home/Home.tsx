@@ -129,19 +129,19 @@ function Home() {
             max-w-md
           '>
             <div className='font-medium text-gray-800 text-right'>Monday:</div>
-            <div>9:00 AM - 9:00 PM</div>
+            <div>11:00 AM - 10:00 PM</div>
             <div className='font-medium text-gray-800 text-right'>Tuesday:</div>
-            <div>9:00 AM - 9:00 PM</div>
+            <div>11:00 AM - 10:00 PM</div>
             <div className='font-medium text-gray-800 text-right'>Wednesday:</div>
-            <div>9:00 AM - 9:00 PM</div>
+            <div>11:00 AM - 10:00 PM</div>
             <div className='font-medium text-gray-800 text-right'>Thursday:</div>
-            <div>9:00 AM - 9:00 PM</div>
+            <div>11:00 AM - 10:00 PM</div>
             <div className='font-medium text-gray-800 text-right'>Friday:</div>
-            <div>9:00 AM - 9:00 PM</div>
+            <div>11:00 AM - 12:00 AM</div>
             <div className='font-medium text-gray-800 text-right'>Saturday:</div>
-            <div>10:00 AM - 10:00 PM</div>
+            <div>11:00 AM - 12:00 AM</div>
             <div className='font-medium text-gray-800 text-right'>Sunday:</div>
-            <div>Closed</div>
+            <div>11:00 AM - 10:00 PM</div>
           </div>
         </div>
 
