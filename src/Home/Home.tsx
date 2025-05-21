@@ -29,9 +29,10 @@ function Home() {
           text-lg
           font-medium
           text-pretty
-          text-red-500
-          sm:text-xl/8
+          text-red-200
           font-mono
+          text-center
+          px-4
         '>
           AUTHENTIC PALESTINIAN CUISINE SINCE 2019
         </p>
