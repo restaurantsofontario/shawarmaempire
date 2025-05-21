@@ -49,7 +49,7 @@ function Menu() {
             text-4xl
             font-semibold
             text-gray-800
-            text-nowrap
+            text-center
           '>
             Scarborough's Favourites
           </h2>
