@@ -1,3 +1,4 @@
+import Logo from '/logo.jpg'
 type headerProps = { setActiveTab : (tab : any) => void }
 
 function Header({setActiveTab}: headerProps) {
@@ -14,8 +15,8 @@ function Header({setActiveTab}: headerProps) {
         p-2
         lg:px-8
         text-sm/6 font-semibold
-        text-cyan-500
-        bg-white/80
+        text-red-500
+        bg-black/80
         lg:rounded-b-3xl
       '>
         <button type='button' onClick={() => setActiveTab('Home')} className='
@@ -25,7 +26,10 @@ function Header({setActiveTab}: headerProps) {
           rounded-md
           p-2.5
           mr-auto
-        '>Logo</button>
+          max-w-[120px]
+          md:max-w-[200px]
+          
+        '><img src={Logo} className='rounded-sm'/></button>
         <button type='button' onClick={() => setActiveTab('Menu')} className='
           inline-flex
           items-center

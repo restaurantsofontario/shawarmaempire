@@ -16,8 +16,9 @@ function App() {
         min-h-screen
         flex
         justify-center
-        bg-[url(/stock-background.jpg)]
+        bg-[url(/background.png)]
         bg-fixed
+        bg-cover
       '>
         <div className='
           w-full

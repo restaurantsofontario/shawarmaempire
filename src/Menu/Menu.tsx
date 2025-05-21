@@ -1,5 +1,7 @@
-import StockBackground from '/stock-background.jpg'
-import StockMenu from '/stock-menu.webp'
+import Wrap1 from '/wrap1.jpg'
+import Plate1 from '/plate1.jpg'
+import Menu1 from '/menu1.jpg'
+import Menu2 from '/menu2.jpg'
 
 function Menu() {
 
@@ -19,7 +21,7 @@ function Menu() {
           font-semibold
           tracking-tight
           text-balance
-          text-gray-900
+          text-white
           sm:text-7xl
         '>
           Our Menu
@@ -31,7 +33,7 @@ function Menu() {
         flex-col
         flex-grow
         gap-16
-        bg-white/70
+        bg-white/80
         lg:rounded-t-3xl
         p-8
         lg:p-16
@@ -49,7 +51,7 @@ function Menu() {
             text-gray-800
             text-nowrap
           '>
-            Featured Items
+            Scarborough's Favourites
           </h2>
           <div className='
             flex
@@ -61,48 +63,45 @@ function Menu() {
               text-3xl
               font-semibold
               text-gray-800
-              text-nowrap
+              min-w-[200px]
             '>
-              ▼ Featured
+              ▼ Chicken Shawarma Wrap - $7.49
             </h3>
             <p className='
               text-gray-600
               text-lg
               leading-relaxed
             '>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              The chicken shawarma wrap at Shawarma Empire is a flavorful blend of thinly sliced, marinated chicken, grilled to perfection and wrapped in a soft pita. It's layered with fresh veggies, tangy pickles, and creamy garlic and tahini sauce, delivering a bold, savory bite in every mouthful.
             </p>
           </div>
           <div className='
             flex
+            flex-col
+            md:flex-row
             gap-4
-            my-70
+            md:my-8
           '>
             <img 
-              src={StockBackground} 
+              src={Wrap1} 
               className='
                 object-cover
-                w-1/4
                 h-80
                 flex-grow
                 rounded-lg
                 shadow-2xl
-                -mt-70
-                -mr-[90%]
+                md:-mt-8
               '
             />
             <img 
-              src={StockBackground} 
+              src={Plate1} 
               className='
                 object-cover
-                w-1/4
                 h-80
                 flex-grow
                 rounded-lg
                 shadow-2xl
-                -mb-70
+                md:-mb-8
               '
             />
           </div>
@@ -118,18 +117,15 @@ function Menu() {
               leading-relaxed
               text-right
             '>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              The beef shawarma plate at Shawarma Empire features tender, marinated strip loin beef, thinly sliced and served over a bed of seasoned rice. Accompanied by fresh salad and creamy hummus, this hearty dish offers a satisfying taste of authentic Middle Eastern cuisine.
             </p>
             <h3 className='
               text-3xl
               font-semibold
               text-gray-800
-              text-nowrap
-              text-right
+              min-w-[200px]
             '>
-              Featured ▲
+              ▲ Beef Shawarma Plate - $15.99
             </h3>
           </div>
         </div>
@@ -149,7 +145,8 @@ function Menu() {
           '>
             Full Menu
           </h2>
-          <img src={StockMenu}/>
+          <img src={Menu1}/>
+          <img src={Menu2}/>
         </div>
       </div>
     </>

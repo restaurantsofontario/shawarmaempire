@@ -1,4 +1,6 @@
 import StockBackground from '/stock-background.jpg'
+import StoreFront from '/front.jpg'
+import Wrap1 from '/wrap1.jpg'
 
 function Home() {
   return (
@@ -10,7 +12,6 @@ function Home() {
         justify-center
         items-center
         min-h-[300px]
-        lg:min-h-[500px]
 
       '>
         <h1 className='
@@ -18,21 +19,22 @@ function Home() {
           font-semibold
           tracking-tight
           text-balance
-          text-gray-900
+          text-white
           sm:text-7xl
+          italic
         '>
-          Venue Name
+          SHAWARMA EMPIRE
         </h1>
         <p className='
           mt-8
           text-lg
           font-medium
           text-pretty
-          text-gray-500
+          text-red-500
           sm:text-xl/8
           font-mono
         '>
-          AUTHENTIC CUISINE FOOD SINCE 2022
+          AUTHENTIC PALESTINIAN CUISINE SINCE 2019
         </p>
       </div>
       {/* Content */}
@@ -41,7 +43,7 @@ function Home() {
         flex-col
         flex-grow
         gap-4
-        bg-white/70
+        bg-white/80
         lg:rounded-t-3xl
         p-8
         lg:p-16
@@ -60,7 +62,7 @@ function Home() {
             text-gray-800
             mb-4
           '>
-            Synopsis
+            Serving the Heart of Scarborough since 2019
           </h2>
           <p className='
             text-center
@@ -69,15 +71,13 @@ function Home() {
             leading-relaxed
             mb-6
           '>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Discover the rich flavors of authentic Middle Eastern cuisine at Shawarma Empire. From our perfectly spiced shawarma to freshly prepared sides and desserts, we’re proud to serve food that’s made with tradition, care, and bold taste. Whether you’re dining in or taking out, satisfaction is always on the menu.
           </p>
           <div className='
             flex
           '>
             <img 
-              src={StockBackground} 
+              src={Wrap1} 
               className='
                 object-cover
                 w-1/4
@@ -89,7 +89,7 @@ function Home() {
               '
             />
             <img 
-              src={StockBackground} 
+              src={StoreFront} 
               className='
                 object-cover
                 w-1/4
@@ -174,11 +174,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"The food was absolutely amazing! The ambiance was perfect for a family dinner."</p>
+              <p>"This was the best dinner!! The salad is super fresh, rice was so flavourful, and the protein portions are generous. I also really liked their hot sauce. Highly recommend!!!"</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– John Doe</span>
+              '>– Stephanie via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -186,11 +186,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"Great service and delicious dishes. Highly recommend the chef's special!"</p>
+              <p>"If you're craving authentic shawarma, this place is a must-visit!"</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Jane Smith</span>
+              '>– Ramin via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -198,11 +198,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"A wonderful experience overall. Will definitely come back again."</p>
+              <p>"I’ve been here hundreds of times over a decade and not only is it hands down still the best shawarma and falafel, but don’t sleep on the lentil soup! Liquid gold I tell you."</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Alex Johnson</span>
+              '>– Alex via Google</span>
             </div>
           </div>
         </div>
