@@ -1,4 +1,3 @@
-import StockBackground from '/stock-background.jpg'
 import Ahed from '/ahed.jpg'
 import Fresh from '/fresh.jpg'
 

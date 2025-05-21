@@ -1,4 +1,3 @@
-import StockBackground from '/stock-background.jpg'
 import StoreFront from '/front.jpg'
 import Wrap1 from '/wrap1.jpg'
 
