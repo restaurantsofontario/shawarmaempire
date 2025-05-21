@@ -66,9 +66,10 @@ Error generating stack: `+a.message+`
           text-lg\r
           font-medium\r
           text-pretty\r
-          text-red-500\r
-          sm:text-xl/8\r
+          text-red-200\r
           font-mono\r
+          text-center\r
+          px-4\r
         `,children:"AUTHENTIC PALESTINIAN CUISINE SINCE 2019"})]}),O.jsxs("div",{className:`\r
         flex\r
         flex-col\r
