@@ -145,8 +145,12 @@ function Menu() {
           '>
             Full Menu
           </h2>
-          <img src={Menu1}/>
-          <img src={Menu2}/>
+          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg" target="_blank" rel="noopener noreferrer">
+            <img src={Menu1} />
+          </a>
+          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu2.jpg" target="_blank" rel="noopener noreferrer">
+            <img src={Menu2} />
+          </a>
         </div>
       </div>
     </>
