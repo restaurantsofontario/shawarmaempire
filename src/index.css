@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+div, nav, button {
+  border: 0px dashed black;
+}
+
+button {
+  cursor: pointer;
+}
