@@ -143,7 +143,7 @@ function Menu() {
             text-gray-800
             text-nowrap
           '>
-            Full Menu
+            Full Menu (Click to Expand)
           </h2>
           <a href="https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg" target="_blank" rel="noopener noreferrer">
             <img src={Menu1} />
