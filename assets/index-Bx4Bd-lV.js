@@ -289,6 +289,7 @@ Error generating stack: `+a.message+`
               leading-relaxed\r
             `,children:"The chicken shawarma wrap at Shawarma Empire is a flavorful blend of thinly sliced, marinated chicken, grilled to perfection and wrapped in a soft pita. It's layered with fresh veggies, tangy pickles, and creamy garlic and tahini sauce, delivering a bold, savory bite in every mouthful."})]}),T.jsxs("div",{className:`\r
             flex\r
+            w-full\r
             flex-col\r
             md:flex-row\r
             gap-4\r
@@ -331,7 +332,6 @@ Error generating stack: `+a.message+`
             text-4xl\r
             font-semibold\r
             text-gray-800\r
-            text-nowrap\r
           `,children:"Full Menu (Click to Expand)"}),T.jsx("a",{href:"https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg",target:"_blank",rel:"noopener noreferrer",children:T.jsx("img",{src:Bg})}),T.jsx("a",{href:"https://restaurantsofontario.github.io/shawarmaempire/menu2.jpg",target:"_blank",rel:"noopener noreferrer",children:T.jsx("img",{src:Gg})})]})]})]})}function b0(){return T.jsx(T.Fragment,{children:T.jsxs("div",{className:`\r
         flex\r
         flex-col\r
