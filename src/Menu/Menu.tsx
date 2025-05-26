@@ -77,6 +77,7 @@ function Menu() {
           </div>
           <div className='
             flex
+            w-full
             flex-col
             md:flex-row
             gap-4
@@ -141,7 +142,6 @@ function Menu() {
             text-4xl
             font-semibold
             text-gray-800
-            text-nowrap
           '>
             Full Menu (Click to Expand)
           </h2>
